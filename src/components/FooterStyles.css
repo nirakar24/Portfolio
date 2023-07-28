@@ -49,6 +49,18 @@ h4{
 p{
     font-size: 1.2rem;
 }
+.hacker:hover{
+    fill: greenyellow;
+}
+.insta:hover{
+    fill: rgb(230, 22, 112);
+}
+.linkd:hover{
+    fill: rgb(29, 109, 178);
+}
+.gith:hover{
+    fill: rgb(8, 8, 8);
+}
 
 
 @media screen and (max-width:730px) {
