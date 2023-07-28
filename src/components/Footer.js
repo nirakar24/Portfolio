@@ -22,7 +22,7 @@ const Footer = () => {
                 </div>  
             </div>
             <div className='right'>
-              <h4>About me</h4>
+              <h4>Who am I?</h4>
               <p>Dedicated and motivated engineering student pursuing a Bachelor's degree in Artificial Intelligence and Data Science. Skilled in Python and Java programming languages, with hands-on experience in software development, image processing, and web technologies. Eager to leverage knowledge and passion for AI to contribute to innovative projects and further professional growth.</p>
               <div className='social'>
               <FaGithub size={20} style={{color:"#fff", marginRight:"2rem"}}/>
