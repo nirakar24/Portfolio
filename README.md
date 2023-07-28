@@ -1,7 +1,5 @@
 # Portfolio Website - Nirakar Jena
 
-![Portfolio Website - Nirakar Jena]
-
 This is my personal portfolio website built using React.js, showcasing my projects, skills, and experiences as a Python Developer and AI Enthusiast.
 
 ## Table of Contents
