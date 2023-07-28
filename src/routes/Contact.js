@@ -1,18 +1,16 @@
 import React from 'react'
 import Bgimg2 from '../components/Bgimg2'
-import Work from '../components/Work'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 
-const projects = () => {
+const contact = () => {
   return (
     <div>
       <Navbar/>
-      <Bgimg2 heading="PROJECTS." text="Recent works"/>
-      <Work/>
+      <Bgimg2 heading="Contact me" text="Ready to collaborate"/>
       <Footer/>
     </div>
   )
 }
 
-export default projects
+export default contact
