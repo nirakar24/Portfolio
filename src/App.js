@@ -9,35 +9,23 @@ import DotLoader from "react-spinners/DotLoader";
 import {Route , Routes} from "react-router-dom"
 
 function App() {
-  const [loading, setLoading] = useState(false)
+  // const [loading, setLoading] = useState(false)
 
-  useEffect(() =>{
-    setLoading(true)
-    setTimeout(() => {
-      setLoading(false)
-    },3000)
-  },[])
+  // useEffect(() =>{
+  //   setLoading(true)
+  //   setTimeout(() => {
+  //     setLoading(false)
+  //   },3000)
+  // },[])
   return (
     <>
-    {
-       loading ? 
-      <div className="App">
-       <DotLoader
-        color={"#46CFA1"}
-        loading={loading}
-        size={150}
-        aria-label="Loading Spinner"
-        data-testid="loader"
-      />
-      </div>
-       :
     
     <Routes>
       <Route path="/" element={<Home/>}/>
       <Route path="/about" element={<About/>}/>
       <Route path="/contact" element={<Contact/>}/>
       <Route path="/projects" element={<Projects/>}/>
-    </Routes>}
+    </Routes>
     </>
     
   );
